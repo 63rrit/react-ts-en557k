@@ -1,0 +1,270 @@
+
+.card {
+    box-shadow: rgb(255, 255, 255);
+    width: 33.333333%;     
+    padding-top: 1.25rem; 
+    padding-bottom: 1.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-width: 300px; 
+}
+
+.card-specific {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    overflow-wrap: break-word;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 6px 12px -3px rgba(17, 12, 46, 0.35);
+    max-width: 300px;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.card-sm-div {
+    /* text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full */
+    color: rgba(255, 255, 255, 1);
+    padding: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1.25rem;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    border-radius: 9999px;
+}
+
+/* *********************************** */
+.CardOurValue {
+    margin: auto;
+    min-width: 23%;
+    max-width: 12.rem;
+    padding-right: 1.25rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1028px) {
+    .CardOurValue {
+        max-width: 23%;
+
+    }
+  }
+
+.WhiteCircle {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.OurValuesHead {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+
+}
+
+.OurValuesText {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    --tw-text-opacity: 1;
+    color: rgba(113, 113, 122, var(--tw-text-opacity));
+
+}
+
+.CardOurTeamImg {
+    border-radius: 9999px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team-member-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+
+
+.bullet-points-item-li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bullet-points-item-li-div {
+    display: flex;
+    align-items: center;
+}
+
+.bullet-points-item-li-div-span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.38rem;
+    border-radius: 9999px;
+    color: rgba(219, 39, 119, 1);
+    background-color: rgba(251, 207, 232, 1);
+    margin-right: 0.75rem;
+}
+
+/* new */
+.card-with-note-div-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    max-width: 462.5px;
+    min-height: 578px;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(17, 12, 46, 0.35) 3px 6px 12px -3px;
+    border-radius: 0.5rem;
+    background-color: rgba(219, 39, 119, 1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-with-note-div-div-img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card-with-note-div-div-blockquote {
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 1rem
+}
+
+.card-blockquote-svg {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    display: block;
+    height: "95px";
+    top: "-94px"; 
+}
+
+.card-blockquote-svg-polygon {
+    color: rgba(219, 39, 119, 1);
+    fill: currentColor;
+}
+
+.card-blockquote-h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);  
+}
+
+.card-blockquote-p {
+    font-weight: 300;
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-text-trans-div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 550px;
+}
+
+
+
+
+
+.wrapper {
+    width: 50%;
+    max-width: 36rem;
+    min-width: 20rem;
+    overflow-wrap: break-word;
+    justify-content: center;
+    border-radius: 0.5rem;
+    
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    background-color: var(--fsw-color-grey);
+}
+
+.form-control {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem
+}
+
+.form-control input :focus {
+    outline: none;
+    border-color: green;
+}
+
+.form-control.invalid input {
+    border-color: red;
+    background: #ffd7d7;
+}
+
+.form-control.invalid label {
+    border-color: red;
+}
+
+.card-contact-sec {
+    position: relative;
+    display: block;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: rgba(24, 24, 27, 1);
+}
+
+.card-contact-head {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.card-contact-desc {
+    line-height: 1.625;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    color: rgba(82, 82, 91, 1);
+}
+
+.card-contact-inp {
+    border-width: 0px;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 1024px) {
+    .card-contact-sec {
+        padding-top: 0px;
+    }
+}
+
+
+.fa_map { background-color: rgba(248, 113, 113, 1); }
+.fa_music { background-color: rgba(96, 165, 250, 1); }
+.fa_anchor { background-color: rgba(74, 222, 128, 1); }
